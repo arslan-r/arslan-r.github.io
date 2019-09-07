@@ -1,44 +1,29 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
+image: images/caduceus-medical-symbolSquare.png
+title: Hospital Volunteering
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2017-01-01
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Empathy
+  - Medicine
+summary: "Volunteered my time to learn more about the medical field and provide support to the staff and patients."
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="..caduceus-medical-symbolSquare.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+	Prior to pursuing a degree in computer science, I’ve been dreaming of becoming a doctor. As a potential candidate for medical school, it is recommended that one should volunteer and spend their time being around doctors and the medical field. This is for them to get in field experience and what being a doctor is really like, and I am glad I did it.
+	I spent close to 9 months volunteering several hours every week at Kaiser Moanalua Medical Center in their first-floor department. This was the “general” section of the hospital I come to find out later. Specifically, certain floors were dedicated to certain needs, but here we got a little bit of everything. It was an eye-opening experience because I got to see and talk to many different doctors from varying career paths. What was most impactful, however, were the patients. Some had hard loving families who came to see them every day, while others not so much. Some refused help from the nurses and were being a bit difficult. One case stuck out to me. There was a patient who was there every day for as long as I can remember. He was not able to talk and was on life support but was 100% aware of his surroundings. Basically, on his deathbed. Muscles had atrophied and he either had no family or none that came to visit. This patient really made me reconsider a path in medicine. I could deal with blood and various fluids, but couldn’t bear to see such sadness. 
+	I am glad I got to volunteer at Kaiser. It made me reconsider my career path and literally changed my life.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
 
-Here is some code that illustrates how we read values from the line sensors:
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+
 
 
 
