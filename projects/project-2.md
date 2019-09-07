@@ -1,25 +1,18 @@
 ---
-layout: project
+layout: essay
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/Database-SecuritySquare.jpg
+title: ICS 212 Database
+permalink: projects/212database
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2019-05-01
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - C
+  - C++
+summary: An account management application that features a database
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/Database-SecuritySquare.jpg">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
-
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+  ICS212 was a first step into the world of C and C++. Having passed that class I am comfortable saying that I am at an intermediate level of C and C++. This project demonstrates a database, something similar to an account management software.
+  This database is able to add new records to the database and print information about a certain account by allowing you to input the account number. One is also able to print all the information of the database, or search through out the database and print the account(s) that have a certain name. This database allows for deletion of a record using the account number, or one can simply delete the database entirely. Later on in the project, I have added the ability to reverse this entire database, since it is a link list based one. One added feature is that the program will save itself before quitting, allowing all your records to be kept intact and reloaded when the database is relaunched.
