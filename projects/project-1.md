@@ -12,6 +12,7 @@ labels:
 summary: "Volunteered my time to learn more about the medical field and provide support to the staff and patients."
 ---
 
+<img class="ui medium right floated rounded image" src="caduceus-medical-symbolSquare.png">
 
 
    Prior to pursuing a degree in computer science, I’ve been dreaming of becoming a doctor. As a potential candidate for medical school, it is recommended that one should volunteer and spend their time being around doctors and the medical field. This is for them to get in field experience and what being a doctor is really like, and I am glad I did it.
