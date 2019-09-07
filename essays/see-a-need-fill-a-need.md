@@ -10,7 +10,6 @@ labels:
   - Web Development
 ---
 
-<img class="ui tiny left circular floated image" src="../images/paintbrushes.jpg">
 
   Software Engineering is something I stumbled upon accidently. I never thought I would be anything close to an engineer in high school. Engineer? Math was my least favorite subject! Well, it still is, but I’m better at it now and like it a bit more. Back in community college I needed an extra class to be a full time student, so I took the entry level computer science course with my friend for the hell of it. Turns out it was way interesting that any other class that I was in. You could build something out of nothing. It was amazing, mind blowing, and challenging without being frustrating. Okay sometimes it is very frustrating, but nevertheless, I was in love.
 
