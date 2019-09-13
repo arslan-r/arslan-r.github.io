@@ -15,7 +15,7 @@ labels:
 
   Consulting StackOverflow, along with any other resource is a skill one must develop. Simply put, there is a right way to ask questions, and a wrong way. The right way will contribute to the community and help you solve your problem. It may also help anyone else having the same problem. Asking for help in a wrong way will hardly get you a response. 
   
-  <img class="ui large floated image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/ArthurConanDoyle_AStudyInScarlet_annual.jpg/220px-ArthurConanDoyle_AStudyInScarlet_annual.jpg">
+  <img class="ui medium floated image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/ArthurConanDoyle_AStudyInScarlet_annual.jpg/220px-ArthurConanDoyle_AStudyInScarlet_annual.jpg">
   
   Eric Raymond wrote a great piece on this topic, and its called “How To Ask Questions The Smart Way”. No question is a stupid question, but in his article he outlines what a great question is. He teaches how to effectively describe your issue and what your symptoms are, along with conveying the goal you want to achieve. An example of a great question can be seen in this StackOverflow question. [Image Processing: Algorithm Improvement for 'Coca-Cola Can' Recognition.](https://stackoverflow.com/questions/10168686/image-processing-algorithm-improvement-for-coca-cola-can-recognition?rq=1)
   
