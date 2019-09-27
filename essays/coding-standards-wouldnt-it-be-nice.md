@@ -21,7 +21,7 @@ labels:
   
    Lets say you are working with 20 other people on a project and everyone has a different way of writing code. Your best friend John absolutely LOVES his “Enter” button. Mashes it all the time. His code has gaps and looks messy. Your other friend Jane is the complete opposite of John and hardly uses her “Enter” button, spewing out long strings of data. Now imagine being the one trying to review this code, you would spend more time figuring out what goes where than actually reading the code. Highly inefficient! As The Beach Boys said, “And wouldn't it be nice to live together, in the kind of world where we belong?” Coding standards allow everyone to be on the same page when looking at each other’s code.
    
-  <img class="ui medium floated image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/ArthurConanDoyle_AStudyInScarlet_annual.jpg/220px-ArthurConanDoyle_AStudyInScarlet_annual.jpg">
+  <img class="ui medium floated image" src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjLlerTyfDkAhUiIzQIHUtXASUQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.nytimes.com%2F2012%2F02%2F05%2Farts%2Fmusic%2Fstones-chieftains-beach-boys-and-el-gran-combo-turn-50.html&psig=AOvVaw0jCBGo87z1O_d-D4cXx3vG&ust=1569659016841334">
   
    Let’s imagine you are learning how to code, which all of us should always be. It would be a lot simpler for you if you are diving into a new language and are able to recognize patterns and how things function. Wouldn’t it be nice if we had, the same nomenclature in our code? Wouldn’t it be nice if we didn’t wonder, “what is this and where does it belong?”
   
