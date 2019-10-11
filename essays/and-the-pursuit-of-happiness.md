@@ -24,5 +24,5 @@ labels:
    This sounds great, right? Could there be any downside to this? Why, of course. Life isn’t perfect. While UI frameworks do provide the incredible power to make pages quickly, they are limited by what they provide. A UI framework may not have what you are looking for. Those that learned to use frameworks in lieu of mastering HTML and CSS may have a difficult time modifying framework elements. Frameworks might weigh your project down because you would be including an entire library, of which a small percentage would be used. Also, when this library updates, even a small bug could break every single website that uses it. 
    
    
-   So there are some downsides to using frameworks, but the day to day usage of UI frameworks far outweigh the downsides. In the end, these UI frameworks provide us with a certain quality of life, simplicity, and pursuit of happiness.
+   So there are some downsides to using frameworks, but the day to day usage of UI frameworks far outweigh the them. In the end, these UI frameworks provide us with a certain quality of life, simplicity, and pursuit of happiness.
 
