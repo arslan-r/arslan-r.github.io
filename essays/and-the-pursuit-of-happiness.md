@@ -8,7 +8,7 @@ labels:
   - Software Engineering
   - Learning
   - Web Development
-  -UI
+  - UI
 ---
    Ever played with LEGOs? Seems like every child has at one point. One block, two block, red block, blue block. Put a few together and you got yourself a castle! Put a few more and you got a whole village, or a starship, or even a dragon! When I was a child, I used to have this big plastic bin of Legos from many sets. Harry Potter! Star Wars! Batman! It had everything. Each set had something special. Maybe one had some sort of gun that launched another piece, while another set had a castle gate that lifted. All of this similar to how UI frameworks work.
    
