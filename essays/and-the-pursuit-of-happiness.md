@@ -12,7 +12,7 @@ labels:
 ---
    Ever played with LEGOs? Seems like every child has at one point. One block, two block, red block, blue block. Put a few together and you got yourself a castle! Put a few more and you got a whole village, or a starship, or even a dragon! When I was a child, I used to have this big plastic bin of Legos from many sets. Harry Potter! Star Wars! Batman! It had everything. Each set had something special. Maybe one had some sort of gun that launched another piece, while another set had a castle gate that lifted. All of this similar to how UI frameworks work.
    
-<img class="ui medium floated image" src="https://s3-prod.adage.com/s3fs-public/styles/width_1024/public/20190809_legoFriends_3x2.jpg">
+<img class="ui small floated image" src="https://s3-prod.adage.com/s3fs-public/styles/width_1024/public/20190809_legoFriends_3x2.jpg">
 
 
    Why use frameworks? Why bother learning them? There’s so much documentation to sift through… but in the end it’s all worth it. That little bit of extra effort goes a LONG way in making your life easy. These frameworks are similar to Legos, in the sense that they provide already made pieces for your wonderful creation. Menus, icons, buttons, forms, grids! You name it. Those are all plug and play elements you don’t have to code from scratch. Not only that, but all those elements are easy to modify and make even the creativity challenged put out some fancy looking pages. 
