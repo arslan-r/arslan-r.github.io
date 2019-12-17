@@ -1,13 +1,13 @@
 ---
 layout: essay
 type: essay
-title: A Study in StackOverflow
+title: Software Development Takeaways
 # All dates must be YYYY-MM-DD format!
-date: 2018-09-12
+date: 2019-12-16
 labels:
   - Software Engineering
   - Learning
-  - StackOverflow
+  - Concepts
 ---
 
    Web application development is but a medium that one could use to learn solid software engineering concepts. Understanding these concepts will build a foundation for a quality software engineer. The 314 computer science course at University of Hawaii at Manoa will teach one configuration management, functional programming, coding standards, agile project management, design patterns, testing, and ethics in software engineering. Some topics related to web development specifically include development environment, certain programming languages, along with user interface frameworks. 
