@@ -34,20 +34,30 @@ labels:
 
 <p align="center">
 	
-	
 “You know it seems the more we talk about it
 
+</p>
+
+<p align="center">
 
 It only makes it worse to live without it
 
+</p>
+
+<p align="center">
 
 But let's talk about it
 
+</p>
+
+<p align="center">
 
 Oh, wouldn't it be nice?”
 
+</p>
+
+<p align="center">
 
 -The Beach Boys
-
 
 </p>
