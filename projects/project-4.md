@@ -13,7 +13,7 @@ labels:
 summary: An easy, breezy, beautiful way to apply for a loan.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/GEMSHome.png">
+
 
 [THE PROJECT](http://simple-green-loans.meteorapp.com/#/)
 
@@ -32,14 +32,22 @@ summary: An easy, breezy, beautiful way to apply for a loan.
 -Bigweld
 </p>
   
+  <img class="ui massive centered rounded image" src="../images/GEMSHome.png">
+
 
 My team and I improved on this by eliminating redundancies in the application process. Applicants can now log onto a portal and be taken step by step through the application process. The forms are clean, simple, easy to follow. They do not overwhelm the users by asking everything at once. 
 
+<img class="ui massive centered rounded image" src="../images/GEMSStart.png">
+
+<img class="ui massive centered rounded image" src="../images/GEMSApp.png">
 
 One feature the GEM$ team asked for was the ability to sign off documents online, and we have provided that. Applicants can now sign their documents on screen and send it in as part of their submission. The GEM$ team are now able to extract this authorization and send it off to the Hawaiian Electric Company and other nescessary parties. 
 
 
 A feature we implemented is the emailing system. When a user signs up, they recieve an email to confirm their email address. Where before, there would be a decent amount of communicating between GEM$ and applicants regarding the state of their application, with a click of a button, we are able to send reminders or update the status of their application. This is especailly useful if they are missing any information.
+
+
+<img class="ui massive centered rounded image" src="../images/GEMSAdmin.png">
 
 
 We were also tasked with implementing a way to extract the data and save it in an Excel file for their own record keeping. We  implemented the nescessary databases to store applicant's data, along with a feature to view all of their applicants, where they are in the process, what sections of the application need to be filled out, and generate Excel files for any and all individuals.
