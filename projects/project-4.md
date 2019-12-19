@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: project
 type: project
 image: images/GEMSLogo.png
 title: Green Loan Portal
