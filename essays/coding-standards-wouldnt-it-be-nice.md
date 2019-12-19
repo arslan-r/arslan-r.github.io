@@ -13,13 +13,13 @@ labels:
 
 
 
-   Coding standards. Some people love the, some people hate them. Do we really need them? Are those spaces between brackets really that important? Honestly, one could think that if the code runs, why fix it. But there is more than meets the eye. To many people, a coding standard truly is, a diamond in the rough.
+   Coding standards. Some people love them, some people hate them, but do we really need them? Are those spaces between brackets really that important? Honestly, one could think "If the code runs, why fix it?". But there is more than meets the eye. To many people, a coding standard truly is, a diamond in the rough.
   
   
-   A student might roll their eyes at all the warnings thrown by their IDE. “Finally finished the project! But ughhhh now I have to go back and fix my code”. Yes it is a pain in the butt to go back and fix it up, but what can be learned can be unlearned in the exact same way habits can change. Simply write the code right the first time. There are many benefits to following code standards.
+   A student might roll their eyes at all the warnings thrown by their IDE. “Finally finished the project! But ughhhh now I have to go back and fix my code”. Yes it is a pain in the butt to go back and fix it up, but what can be learned can be unlearned. Habits can change. Simply write the code right the first time. There are many benefits to following code standards.
   
   
-   Lets say you are working with 20 other people on a project and everyone has a different way of writing code. Your best friend John absolutely LOVES his “Enter” button. Mashes it all the time. His code has gaps and looks messy. Your other friend Jane is the complete opposite of John and hardly uses her “Enter” button, spewing out long strings of data. Now imagine being the one trying to review this code, you would spend more time figuring out what goes where than actually reading the code. Highly inefficient! As The Beach Boys said, “And wouldn't it be nice to live together, in the kind of world where we belong?” Coding standards allow everyone to be on the same page when looking at each other’s code.
+   Lets say you are working with 20 other people on a project and everyone has a different way of writing code. Your best friend John absolutely LOVES his “Enter” button. Mashes it all the time. His code has gaps and looks messy. Your other friend Jane is the complete opposite of John and hardly uses her “Enter” button, spewing out long strings of data. Now imagine being the one trying to read this mess. You would spend more time figuring out what goes where than actually reading the code. Highly inefficient! As The Beach Boys said, “And wouldn't it be nice to live together, in the kind of world where we belong?” Coding standards allow everyone to be on the same page when looking at each other’s code.
    
   <img class="ui medium floated image" src="https://static01.nyt.com/images/2012/02/05/arts/05FIFTIETH_SPAN/05FIFTIETH_SPAN-jumbo.jpg">
   
