@@ -2,7 +2,7 @@
 layout: essay
 type: project
 image: images/Database-SecuritySquare.jpg
-title: ICS 212 Database
+title: Account Management Database
 permalink: projects/212database
 # All dates must be YYYY-MM-DD format!
 date: 2019-05-01
