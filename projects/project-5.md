@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/MachineLearningPic.png
 title: Getting Feet Wet With Machine Learning
-permalink: projects/green-loan-portal
+permalink: projects/republican_or_democrat
 # All dates must be YYYY-MM-DD format!
 date: 2020-2-1
 labels:
