@@ -21,7 +21,7 @@ summary: Given an individuals voting history, what is the probability that he is
 </p>
   
 
-Naive Bayes will be used for this Machine Learning project. Explanation was obtained from the following website. http://theprofessionalspoint.blogspot.com/2019/03/advantages-and-disadvantages-of-naive.html
+Naive Bayes will be used for this Machine Learning project. Explanation was obtained from this [website](http://theprofessionalspoint.blogspot.com/2019/03/advantages-and-disadvantages-of-naive.html).
 
 Bayes theorem is represented with the following expression:
 
@@ -44,7 +44,7 @@ P(A|B) = P(B|A) * P(A) / P(B)
 
 
 
-Data obtained from https://archive.ics.uci.edu/ml/datasets/Congressional+Voting+Records.
+Data obtained from this [website](https://archive.ics.uci.edu/ml/datasets/Congressional+Voting+Records).
 
 
 
