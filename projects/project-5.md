@@ -5,11 +5,10 @@ image: images/MachineLearningPic.png
 title: Getting Feet Wet With Machine Learning
 permalink: projects/green-loan-portal
 # All dates must be YYYY-MM-DD format!
-date: 2020-1-2
+date: 2020-2-1
 labels:
   - Machine Learning
   - Python
-
 summary: Given an individuals voting history, what is the probability that he is a Republican?
 ---
 
