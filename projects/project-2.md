@@ -12,7 +12,7 @@ labels:
 summary: An account management application that features a database
 ---
 
-<img class="ui medium right floated rounded image" src="../images/Database-SecuritySquare.jpg">
+<img class="ui medium left floated rounded image" src="../images/Database-SecuritySquare.jpg">
 
   ICS212 was a first step into the world of C and C++. Having passed that class I am comfortable saying that I pretty decent understanding  of C and C++. This project demonstrates a database, something similar to an account management software.
   
