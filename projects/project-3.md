@@ -12,7 +12,7 @@ labels:
 summary: Improving the quality of life of my fellow coworkers
 ---
 
-<img class="ui medium right floated rounded image" src="../images/winter-sun-cocktail.jpg">
+<img class="ui medium middle floated rounded image" src="../images/winter-sun-cocktail.jpg">
 
    I work in the service industry and have been for a couple years. I’ve been in every front of house position, starting from a host and being promoted to lead host, busser/runner, and eventually server and bartender. 
 
