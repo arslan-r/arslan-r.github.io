@@ -16,7 +16,7 @@ summary: Improving the quality of life of my fellow coworkers
 
    I work in the service industry and have been for a couple years. I’ve been in every front of house position, starting from a host and being promoted to lead host, busser/runner, and eventually server and bartender. 
 
-   One thing I noticed is how servers often have no clue as to the alcohol the restaurant serves. This is different from the menu cocktails, which I’m sure the servers can rattle off the top of their heads. The alcohol I am talking about comes in hard liquors and liqueurs. The problem here is if a guest asks for a specific spirit, the waiter would often run to the bar to check if they carried it. This causes major setbacks, especially if one has a million other things to do and several other tables to watch over.
+   One thing I noticed is how servers often have no clue what kind of alcohol the restaurant serves serves. This is different from the menu cocktails, which I’m sure the servers can rattle off the top of their heads. The alcohol I am talking about comes in hard liquors and liqueurs. The problem here is if a guest asks for a specific spirit, the waiter would often run to the bar to check if they carried it. This causes major setbacks, especially if one has a million other things to do and several other tables to watch over.
 
    This problem had a simple solution. Create a specification sheet that carried all spirits in an easy to read yet small enough to carry form. In one of my waiter jobs I created this personally, the management thought this was a great idea, and had copies made to distribute to other servers. 
 
