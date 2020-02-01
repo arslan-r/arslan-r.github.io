@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/GEMSLogo.png
+image: images/SolarPanel.png
 title: Green Loan Portal
 permalink: projects/green-loan-portal
 # All dates must be YYYY-MM-DD format!
