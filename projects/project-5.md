@@ -1,16 +1,15 @@
 ---
 layout: project
 type: project
-image: images/SolarPanelSquare.jpg
-title: Green Loan Portal
+image: images/MachineLearningPicSquare.jpg
+title: Getting Feet Wet With Machine Learning
 permalink: projects/republican-or-democrat
 # All dates must be YYYY-MM-DD format!
-date: 2019-12-18
+date: 2020-02-01
 labels:
-  - Meteor
-  - React
-  - UI
-summary: testing testing
+  - Machine Learning
+  - Python
+summary: Given an individuals voting history, what is the probability that he is a Republican?
 ---
 
 
