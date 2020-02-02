@@ -14,11 +14,11 @@ summary: Given an individuals voting history, what is the probability that they 
 
 
 
-[THE PROJECT](https://github.com/arslan-r/republican_or_democrat/blob/master/Naive_bayes.ipynb)
+# Naive Bayes
 
-  <p align="center">
-  "Naive Bayes"
-</p>
+
+#### [THE PROJECT CODE](https://github.com/arslan-r/republican_or_democrat/blob/master/Naive_bayes.ipynb)
+
   
 
 Naive Bayes will be used for this Machine Learning project. Explanation was obtained from this [website](http://theprofessionalspoint.blogspot.com/2019/03/advantages-and-disadvantages-of-naive.html).
@@ -45,5 +45,19 @@ P(A|B) = P(B|A) * P(A) / P(B)
 
 
 Data obtained from this [website](https://archive.ics.uci.edu/ml/datasets/Congressional+Voting+Records).
+  <img class="ui massive centered rounded image" src="../images/datasetML.png">
+  
+  
+Direct calculations calculations would be described in the code.
+These are the following results. Here I derive the label priors as well as the vote probabilities (the probability that an individual of both parties would vote 1 on a measure.) 
+
+<img class="ui small centered rounded image" src="../images/ML1.png">
 
 
+This data is later used to derive the probability that an individual is a Republican based on their vote history. One could derive the probability that an individual is a Democrat with some simple additional code. Here the model has an 85% accuracy.
+
+
+<img class="ui small centered rounded image" src="../images/ML2.png">
+
+
+  
