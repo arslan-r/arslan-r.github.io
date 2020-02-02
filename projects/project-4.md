@@ -10,7 +10,7 @@ labels:
   - Meteor
   - React
   - UI
-summary: An easy, breezy, beautiful way to apply for a loan.
+summary: An easy, breezy, beautiful way to apply for a loan
 ---
 
 
