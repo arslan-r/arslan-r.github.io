@@ -12,11 +12,6 @@ labels:
 summary: Given an individuals voting history, what is the probability that they are Republican?
 ---
 
-
-
-#### Naive Bayes
-
-
 #### [THE PROJECT CODE](https://github.com/arslan-r/republican_or_democrat/blob/master/Naive_bayes.ipynb)
 
   
