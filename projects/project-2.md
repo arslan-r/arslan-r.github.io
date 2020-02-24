@@ -14,7 +14,7 @@ summary: An account management application that features a database
 
 
 
-  ICS212 was a first step into the world of C and C++. Having passed that class I am comfortable saying that I pretty decent understanding  of C and C++. This project demonstrates a database, something similar to an account management software.
+  ICS212 was a first step into the world of C and C++. Having passed that class I am comfortable saying that I have pretty decent understanding  of C and C++. This project demonstrates a database, something similar to an account management software.
   
 <img class="ui massive centered rounded image" src="../images/Startscreen.png">
 
