@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/MachineLearningPicSquare.jpg
+image: images/Gary3.png
 title: AWS Project
 permalink: projects/awsproject
 # All dates must be YYYY-MM-DD format!
@@ -22,6 +22,9 @@ This is meant to provide a simple explanation to technologies used in the cloud.
 
 
 Lets start out by hosting a static website on the cloud. Static content, such as HTML, CSS, and media content will be hosted on Amazon S3, which stands for Simple Storage Service. Objects here are stored directly via HTTP.
+
+
+<img class="ui massive centered rounded image" src="../images/AWSHomepage.png">
 
 We will create an S3 bucket and enable the bucket to be used for static website hosting. Amazon S3 buckets, which are like file folders, store objects that consist of data and its descriptive metadata.
 
@@ -67,9 +70,10 @@ So we got a database going. Lets use it to gather information which we can later
 
 
 MICROSERVICES
-[https://raygun.com/blog/what-are-microservices/](https://raygun.com/blog/what-are-microservices/)
-PROS
 
+[https://raygun.com/blog/what-are-microservices/](https://raygun.com/blog/what-are-microservices/)
+
+PROS
 
 "The biggest pro of microservices architecture is that teams can develop, maintain, and deploy each microservice independently. This kind of single-responsibility leads to other benefits as well. Applications composed of microservices scale better, as you can scale them separately, whenever it’s necessary. Microservices also reduce the time to market and speed up your CI/CD pipeline. This means more agility, too. Besides, isolated services have a better failure tolerance. It’s easier to maintain and debug a lightweight microservice than a complex application, after all."
  
