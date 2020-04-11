@@ -8,11 +8,11 @@ permalink: projects/awsproject
 date: 2020-04-05
 labels:
   - AWS
-summary: AWS Project tech and how to.
+summary: Architecting and hosting a website on AWS. 
 ---
 
-# AWS-Project
-Through using AWS materials on their website, I hosted a static website on Amazon S3, converted it to a dynamic one with AWS Fargate, allowed it to store data with DynamoDB, and enabled user registration + authentication through AWS Cognito and REST API. AWS Lambda was further used with user generated data.
+
+Using AWS materials on their website, I hosted a static website on Amazon S3, converted it to a dynamic one with AWS Fargate, allowed it to store data with DynamoDB, and enabled user registration + authentication through AWS Cognito and REST API. AWS Lambda was further used with user generated data.
 
 
 This is meant to provide a simple explanation to technologies used in the cloud. This will NOT go into specifics of how to do it, but merely provide an idea of how everything works together. The code for the website is provided by Amazon in their Mythical Mysfits guide, hence there is no code in this repository. Most of the actions taken will be done through the AWS terminal.
