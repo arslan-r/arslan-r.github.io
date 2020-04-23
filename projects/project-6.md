@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/Gary3.png
+image: images/awslogo.png
 title: AWS Project
 permalink: projects/awsproject
 # All dates must be YYYY-MM-DD format!
