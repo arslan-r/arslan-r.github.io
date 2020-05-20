@@ -10,23 +10,23 @@ labels:
   - Concepts
 ---
 
-   Before I log into RadGrad, my impressions of the program is something that will not be of help to me. I last used it a year ago when we all signed up as a class for it, and maybe I should should have looked around then, but who knows. Okay. First impressions.
+   Alright! Lets take a look at this. I havent seen this website since I first signed up for it, so lets rediscover what its all about. First impressions:
 
    
    <img class="ui massive centered image" src="../images/homepagerg2.png">
    
   
-   I don’t really know where to start. The first thing that catches my eye is the opportunities part, and makes me want to look for internships. 
+   I don’t really know where to start. The first thing that catches my eye is the opportunities part, and makes me want to look for internships. Awesome, I need those. What about the point system?
 
 
    To be honest, I don’t see the benefit of accumilating points to attain some level. I understand some people do strive to achieve a certain level of success or completion, but this not something that interests me. This might be selfish to say, but I am interested in doing things that would bring benefit to my future or help me in someway, such as opportunities or learning new skills. Tracking them with a point system is not something I can see bringing immediate benefit to myself. I understand that this feature is meant to organize a students pathway and help them be well rounded by making certain activities count towards certain levels. Maybe if this was more competetive I would strive to achieve some level that would give me an advantage or privilages. 
 
-   I tried to add certain activities to semesters, but figured that this is quite cumbersome to click on an opportunity just to read the description. Then add it to favorites, and then go back to my path way to throw it in a semester. I think a feature similar to what youtube has might work better. If one was to go into any video and click add to favorties, a drop down menu would pop up and you can select which playlist you want to add it to. I think we could steal this idea and implement it where each opportunity card can have the "add to favorites" feature, and a small drop down menu would appear listing the your semesters with a checkbox next to each one
+   I tried to add certain activities to semesters, but I found this is quite cumbersome to click on an opportunity just to read the description. Then add it to favorites, and then go back to my path way to throw it in a semester. I think a feature similar to what youtube has might work better. If one was to go into any video and click add to favorties, a drop down menu would pop up and you can select which playlist you want to add it to. I think we could steal this idea and implement it where each opportunity card can have the "add to favorites" feature, and a small drop down menu would appear listing the your semesters with a checkbox next to each one.
 
 <img class="ui big centered image" src="../images/ytexample.png">
 <img class="ui big centered image" src="../images/ytdropdown.png">
 
-
+  As for the description, maybe we can include a "..see more" button that expands the description and enlarges the card. This way we can learn all about the opportunity and add it to whichever semester we want without jumping through hoops.
 
    What does interest me is a list of internships and hackathons. Maybe there could be a link thrown in there that leads to hackathon events. COVID caused a ton of these hackathons to virtual, and I suspect there would be more of these in the future. This is a great opportunity for Hawaii students as they may not be able to fly to the west or east coast to attend them. 
 
