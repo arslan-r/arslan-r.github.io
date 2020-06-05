@@ -25,3 +25,8 @@ Day 3
 
 
    Here we attempted to try the HTTPS part of the OPQ Cloud routine. We got stumped on the domain part of the directions, and I ended up getting a domain name named after me for cheap. I might transfer my website to it. I just have to set it up with a host and eventually finish the tutorial with it, but for now we are able to do it with some fake credentials. Pair programming was useful because Calvan was stuck on one part and I was happy to help him out. However, here we experienced some trouble with docker crashing and making us unable to finish running the program. Docker would take a while to restart and then we would have to restart Ubuntu. It takes a while, so we ended the meeting and both tried to get it working individually. The rest of what we needed to do did not require much thinking, we just needed Docker to work properly. 
+   
+   
+OVERALL
+
+   We worked anywhere from 20 to 40 minutes each day. One thing that works well with pair programming is when both parties have things to contribute. I was a bit behind the first day and felt kinda bad. Third day better because we worked through problems together. Calvan also had some problems I experienced and it was nice to have the input of someone else running the same programs in the same environment.
