@@ -128,7 +128,7 @@ Next, go to:
 
 The config directory contains a file called settings.production.sample.json, which is a template you can use to create the settings.production.json file. The template looks like this:
 
-  `
+```
   {
     "meteor-azure": {
       "siteName": "app name",
@@ -146,7 +146,7 @@ The config directory contains a file called settings.production.sample.json, whi
     }
     // ... keys for Meteor.settings
   }
-  `
+```
 
 Copy the contents of `settings.production.sample.json` over `settings.development.json`. Rename `settings.development.json` to `settings.production.json`. Then edit the fields as follows:
 
