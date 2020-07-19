@@ -121,25 +121,25 @@ Next, go to:
 
 The config directory contains a file called settings.production.sample.json, which is a template you can use to create the settings.production.json file. The template looks like this:
 
-```shell script
-{
-  "meteor-azure": {
-    "siteName": "app name",
-    "resourceGroup": "resource group",
-    "subscriptionId": "subscription ID",
-    "tenantId": "tenant ID",
-    "deploymentCreds": {
-      "username": "username",
-      "password": "password"
-    },
-    "envVariables": {
-      "ROOT_URL": "https://<app name>.azurewebsites.net",
-      "MONGO_URL": "MongoDB URL"
+  ```shell script
+  {
+    "meteor-azure": {
+      "siteName": "app name",
+      "resourceGroup": "resource group",
+      "subscriptionId": "subscription ID",
+      "tenantId": "tenant ID",
+      "deploymentCreds": {
+        "username": "username",
+        "password": "password"
+      },
+      "envVariables": {
+        "ROOT_URL": "https://<app name>.azurewebsites.net",
+        "MONGO_URL": "MongoDB URL"
+      }
     }
+    // ... keys for Meteor.settings
   }
-  // ... keys for Meteor.settings
-}
-```
+  ```
 
 Copy the contents of `settings.production.sample.json` over `settings.development.json`. Rename `settings.development.json` to `settings.production.json`. Then edit the fields as follows:
 
@@ -168,41 +168,41 @@ MONGO_URL:
 
 Navigate to the project directory on your local machine and run:
 
-```shell script
-meteor npm run deploy
+  ```shell script
+  meteor npm run deploy
 
-info:    Targetting 64-bit Node architecture
-info:    Validating settings file (G:\GitFolder\azure-deploy\config\settings.production.json)
-info:    Validating Kudu connection (G:\GitFolder\azure-deploy\config\settings.production.json)
-info:    meteortestdeploy: Authenticating with interactive login...
-To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code FM3DXB253 to authenticate.
-info:    meteortestdeploy: Updating Azure application settings
-info:    Compiling application bundle
+  info:    Targetting 64-bit Node architecture
+  info:    Validating settings file (G:\GitFolder\azure-deploy\config\settings.production.json)
+  info:    Validating Kudu connection (G:\GitFolder\azure-deploy\config\settings.production.json)
+  info:    meteortestdeploy: Authenticating with interactive login...
+  To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code FM3DXB253 to authenticate.
+  info:    meteortestdeploy: Updating Azure application settings
+  info:    Compiling application bundle
 
-WARNING: The output directory is under your source tree.
-         Your generated files may get interpreted as source code!
-         Consider building into a different directory instead
-         meteor build ../output
+  WARNING: The output directory is under your source tree.
+           Your generated files may get interpreted as source code!
+           Consider building into a different directory instead
+           meteor build ../output
 
-app/node_modules/semantic-ui-css/semantic.css: warn: There are some @import rules in the middle of a file. This might be a bug, as imports are only valid at the beginning of a file.
-Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+  app/node_modules/semantic-ui-css/semantic.css: warn: There are some @import rules in the middle of a file. This might be a bug, as imports are only valid at the beginning of a file.
+  Browserslist: caniuse-lite is outdated. Please run next command `npm update`
 
-Unable to resolve some modules:
+  Unable to resolve some modules:
 
-  "@babel/runtime/helpers/createSuper" in
-/G/GitFolder/azure-deploy/app/imports/ui/layouts/App.jsx
-(web.browser.legacy)
+    "@babel/runtime/helpers/createSuper" in
+  /G/GitFolder/azure-deploy/app/imports/ui/layouts/App.jsx
+  (web.browser.legacy)
 
-If you notice problems related to these missing modules, consider running:
+  If you notice problems related to these missing modules, consider running:
 
-  meteor npm install --save @babel/runtime
+    meteor npm install --save @babel/runtime
 
-warn:    Using default web config
-info:    meteortestdeploy: Deploying bundle tarball
-info:    meteortestdeploy: Running server initialisation
-info:    meteortestdeploy: Polling server status...
-info:    meteortestdeploy: Finished successfully
-```
+  warn:    Using default web config
+  info:    meteortestdeploy: Deploying bundle tarball
+  info:    meteortestdeploy: Running server initialisation
+  info:    meteortestdeploy: Polling server status...
+  info:    meteortestdeploy: Finished successfully
+  ```
 
 Your project should now be live at https://yourappname.azurewebsites.net
 
@@ -212,22 +212,22 @@ Your project should now be live at https://yourappname.azurewebsites.net
 
 If you are having trouble, debug mode might be insightful. Turn it on with.
 
-```shell script
-meteor-azure -debug
-```
+  ```shell script
+  meteor-azure -debug
+  ```
 
 ### error: Could not read settings file at 'your file here'
 
 In the package.json there is a script `"deploy": "meteor-azure --settings config/settings.production.json --architecture 64"` That deploys your application to Azure
 Changing the `--settings config/settings.production.json` to include the full path instead of the relative one might solve this problem. For example, the following may work.
 
-`--settings C:\path\to\meteor-example-deploy-azure\config\settings.production.sample.json` 
+  `--settings C:\path\to\meteor-example-deploy-azure\config\settings.production.sample.json` 
 
 
 ### Kudu
 
 It is easy to troubleshoot with kudu. You can access the app's server anytime by adding ".scm" into the url.
 
-```shell script
-https://meteortestdeploy.scm.azurewebsites.net
-```
+  ```shell script
+  https://meteortestdeploy.scm.azurewebsites.net
+  ```
