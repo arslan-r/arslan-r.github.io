@@ -34,7 +34,8 @@ Go to the Side bar > App Services, then click Add.
 
 
    
-   ![](images/WebAppStart.png)
+   
+   <img class="ui massive centered rounded image" src="../images/WebAppStart.png">
 
 Here are some field settings:
 
@@ -54,11 +55,13 @@ The App Service plan designates how much resources Azure makes available for you
 
   * Sku and size: **IMPORTANT.** Select the one you need. Default will be a production plan with a going rate of \$75/month, but if you have the free trial it doesn't matter.  There is a free developer version, but I have found it inadequate in terms of space for the meteor template. If you wish to select it, click "Change size > Dev/Test tab > Select "F1".
   
-  ![](images/AppServicePlan.png)
+  
+  <img class="ui massive centered rounded image" src="../images/AppServicePlan.png">
 
 Click "Review + Create" at the bottom of the page Verify your info. Click "Create". You should be rerouted to a page that says "Deployment is underway", and eventually will complete.
 
-  ![](images/reviewAppService.png)
+  
+  <img class="ui massive centered rounded image" src="../images/reviewAppService.png">
 
 Go to Sidebar > Overview > Your URL will be in the right column in the form of yourappname.azurewebsites.net
 
@@ -86,9 +89,12 @@ To set up Cosmos DB:
   * Multi-region Writes: Disable
   * Click "Review and Create" Review your information and create. Azure will take ~10 minutes to deploy.
   
-  ![](images/CreateCosmo1.png)
-  ![](images/CreateCosmo2.png)
-  ![](images/CosmoReview.png)
+
+  <img class="ui massive centered rounded image" src="../images/CreateCosmo1.png">
+ 
+  <img class="ui massive centered rounded image" src="../images/CreateCosmo2.png">
+  
+  <img class="ui massive centered rounded image" src="../images/CosmoReview.png">
 
 
   
@@ -102,11 +108,13 @@ Here, we will get out App ready for deployment on the Azure portal. Through App 
 
 
   - Clear off any existing entries in the application settings. This can easily be done by selecting "Advanced edit" and clearing everything between these [ ] top level brackets.
-  ![](images/AppSettings.png)
+
+  <img class="ui massive centered rounded image" src="../images/AppSettings.png">
 
   - Click on the General Settings tab. Ensure “Web sockets” and “ARR affinity” are enabled.
   
-  ![](images/WebSockets.png)
+
+  <img class="ui massive centered rounded image" src="../images/WebSockets.png">
 
 
 Next, go to:
@@ -115,13 +123,13 @@ Next, go to:
 
   - Make a username in the form of yourappname\yourusername, along with a password (there are some password characters that are [not accepted](https://stackoverflow.com/questions/62601319/microsoft-azure-cannot-satisfy-password-requirements-when-making-ftp-user-cred).)
 
-  ![](images/FTPcreds.png)
+  <img class="ui massive centered rounded image" src="../images/FTPcreds.png">
 
 ## Configure settings.production.json
 
 The config directory contains a file called settings.production.sample.json, which is a template you can use to create the settings.production.json file. The template looks like this:
 
-  ```shell script
+  `
   {
     "meteor-azure": {
       "siteName": "app name",
@@ -139,13 +147,14 @@ The config directory contains a file called settings.production.sample.json, whi
     }
     // ... keys for Meteor.settings
   }
-  ```
+  `
 
 Copy the contents of `settings.production.sample.json` over `settings.development.json`. Rename `settings.development.json` to `settings.production.json`. Then edit the fields as follows:
 
 Sidebar > Overview. Record your app name, resource group and subscription ID
 
-![](images/gatherInfo.png)
+
+<img class="ui massive centered rounded image" src="../images/gatherInfo.png">
 
 
 You can find your TenantID by searching for "Tenant properties" in the search bar at the top of the page
@@ -162,13 +171,14 @@ MONGO_URL:
     * Scroll down to "Using the Node.js 3.0 driver, connect your existing MongoDB app"
     * Our MONGO_URL is the PRIMARY CONNECTION STRING.
 
-![](images/connString.png)
+
+<img class="ui massive centered rounded image" src="../images/connString.png">
 
 ## Deploy the meteor app to Azure
 
 Navigate to the project directory on your local machine and run:
 
-  ```shell script
+  `
   meteor npm run deploy
 
   info:    Targetting 64-bit Node architecture
@@ -202,7 +212,7 @@ Navigate to the project directory on your local machine and run:
   info:    meteortestdeploy: Running server initialisation
   info:    meteortestdeploy: Polling server status...
   info:    meteortestdeploy: Finished successfully
-  ```
+  `
 
 Your project should now be live at https://yourappname.azurewebsites.net
 
@@ -212,9 +222,9 @@ Your project should now be live at https://yourappname.azurewebsites.net
 
 If you are having trouble, debug mode might be insightful. Turn it on with.
 
-  ```shell script
+  `
   meteor-azure -debug
-  ```
+  `
 
 ### error: Could not read settings file at 'your file here'
 
@@ -228,6 +238,6 @@ Changing the `--settings config/settings.production.json` to include the full pa
 
 It is easy to troubleshoot with kudu. You can access the app's server anytime by adding ".scm" into the url.
 
-  ```shell script
+  `shell script
   https://meteortestdeploy.scm.azurewebsites.net
-  ```
+  `
