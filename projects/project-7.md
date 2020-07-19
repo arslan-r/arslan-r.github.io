@@ -177,7 +177,7 @@ MONGO_URL:
 
 Navigate to the project directory on your local machine and run:
 
-  `
+```
   meteor npm run deploy
 
   info:    Targetting 64-bit Node architecture
@@ -211,7 +211,7 @@ Navigate to the project directory on your local machine and run:
   info:    meteortestdeploy: Running server initialisation
   info:    meteortestdeploy: Polling server status...
   info:    meteortestdeploy: Finished successfully
-  `
+```
 
 Your project should now be live at https://yourappname.azurewebsites.net
 
@@ -221,22 +221,24 @@ Your project should now be live at https://yourappname.azurewebsites.net
 
 If you are having trouble, debug mode might be insightful. Turn it on with.
 
-  `
+```
   meteor-azure -debug
-  `
+```
 
 ### error: Could not read settings file at 'your file here'
 
 In the package.json there is a script `"deploy": "meteor-azure --settings config/settings.production.json --architecture 64"` That deploys your application to Azure
 Changing the `--settings config/settings.production.json` to include the full path instead of the relative one might solve this problem. For example, the following may work.
 
-    `--settings C:\path\to\meteor-example-deploy-azure\config\settings.production.sample.json` 
+```
+    --settings C:\path\to\meteor-example-deploy-azure\config\settings.production.sample.json
+```
 
 
 ### Kudu
 
 It is easy to troubleshoot with kudu. You can access the app's server anytime by adding ".scm" into the url.
 
-    `shell script
+```
     https://meteortestdeploy.scm.azurewebsites.net
-    `
+```
