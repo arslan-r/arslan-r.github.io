@@ -35,7 +35,7 @@ Go to the Side bar > App Services, then click Add.
 
    
    
-   <img class="ui massive centered rounded image" src="../images/WebAppStart.png">
+<img class="ui massive centered rounded image" src="../images/WebAppStart.png">
 
 Here are some field settings:
 
@@ -56,12 +56,11 @@ The App Service plan designates how much resources Azure makes available for you
   * Sku and size: **IMPORTANT.** Select the one you need. Default will be a production plan with a going rate of \$75/month, but if you have the free trial it doesn't matter.  There is a free developer version, but I have found it inadequate in terms of space for the meteor template. If you wish to select it, click "Change size > Dev/Test tab > Select "F1".
   
   
-  <img class="ui massive centered rounded image" src="../images/AppServicePlan.png">
 
 Click "Review + Create" at the bottom of the page Verify your info. Click "Create". You should be rerouted to a page that says "Deployment is underway", and eventually will complete.
 
   
-  <img class="ui massive centered rounded image" src="../images/reviewAppService.png">
+<img class="ui massive centered rounded image" src="../images/reviewAppService.png">
 
 Go to Sidebar > Overview > Your URL will be in the right column in the form of yourappname.azurewebsites.net
 
@@ -90,11 +89,11 @@ To set up Cosmos DB:
   * Click "Review and Create" Review your information and create. Azure will take ~10 minutes to deploy.
   
 
-  <img class="ui massive centered rounded image" src="../images/CreateCosmo1.png">
+<img class="ui massive centered rounded image" src="../images/CreateCosmo1.png">
  
-  <img class="ui massive centered rounded image" src="../images/CreateCosmo2.png">
+<img class="ui massive centered rounded image" src="../images/CreateCosmo2.png">
   
-  <img class="ui massive centered rounded image" src="../images/CosmoReview.png">
+<img class="ui massive centered rounded image" src="../images/CosmoReview.png">
 
 
   
@@ -109,12 +108,12 @@ Here, we will get out App ready for deployment on the Azure portal. Through App 
 
   - Clear off any existing entries in the application settings. This can easily be done by selecting "Advanced edit" and clearing everything between these [ ] top level brackets.
 
-  <img class="ui massive centered rounded image" src="../images/AppSettings.png">
+<img class="ui massive centered rounded image" src="../images/AppSettings.png">
 
   - Click on the General Settings tab. Ensure “Web sockets” and “ARR affinity” are enabled.
   
 
-  <img class="ui massive centered rounded image" src="../images/WebSockets.png">
+<img class="ui massive centered rounded image" src="../images/WebSockets.png">
 
 
 Next, go to:
@@ -123,7 +122,7 @@ Next, go to:
 
   - Make a username in the form of yourappname\yourusername, along with a password (there are some password characters that are [not accepted](https://stackoverflow.com/questions/62601319/microsoft-azure-cannot-satisfy-password-requirements-when-making-ftp-user-cred).)
 
-  <img class="ui massive centered rounded image" src="../images/FTPcreds.png">
+<img class="ui massive centered rounded image" src="../images/FTPcreds.png">
 
 ## Configure settings.production.json
 
@@ -231,13 +230,13 @@ If you are having trouble, debug mode might be insightful. Turn it on with.
 In the package.json there is a script `"deploy": "meteor-azure --settings config/settings.production.json --architecture 64"` That deploys your application to Azure
 Changing the `--settings config/settings.production.json` to include the full path instead of the relative one might solve this problem. For example, the following may work.
 
-  `--settings C:\path\to\meteor-example-deploy-azure\config\settings.production.sample.json` 
+    `--settings C:\path\to\meteor-example-deploy-azure\config\settings.production.sample.json` 
 
 
 ### Kudu
 
 It is easy to troubleshoot with kudu. You can access the app's server anytime by adding ".scm" into the url.
 
-  `shell script
-  https://meteortestdeploy.scm.azurewebsites.net
-  `
+    `shell script
+    https://meteortestdeploy.scm.azurewebsites.net
+    `
