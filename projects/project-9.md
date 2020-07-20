@@ -16,9 +16,11 @@ Ever travel to another country? Even the best of us have a tough time adjusting 
 
 
 Here is an example of the phone being pointed at several price tags and processing all of them precisely. Note that there is no button to take a picture. However, the ability to take photos might be useful for record keeping purposes.
-<img class="ui massive centered rounded image" src="../images/CCEPoint.png">
+<img class="ui medium centered rounded image" src="../images/CCEPoint.png">
 
 This demonstrates the ability to type. Note that there is no "enter" or "submit" button, as there is no need for it. 
-<img class="ui massive centered rounded image" src="../images/CCEType.png">
+<img class="ui medium centered rounded image" src="../images/CCEType.png">
 
 This project is not being further pursued at the moment as there would be a running cost to obtain daily up to date exchange rates. One possible solution for this might go along the lines of hosting a website that runs a web scraper that looks up exchange rates. Still, however, there might be cost to hosting the site and the associated database.
+
+[Link](https://github.com/arslan-r/clever_currency_exchange) to the repository, along with additional notes. 
