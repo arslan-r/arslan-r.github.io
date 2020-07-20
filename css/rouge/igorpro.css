@@ -2,6 +2,7 @@
 .highlight table pre { margin: 0; }
 .highlight, .highlight .w {
   color: #444444;
+  background: #F6F8FA;
 }
 .highlight .cp {
   color: #CC00A3;
