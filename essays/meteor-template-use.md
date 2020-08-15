@@ -67,7 +67,7 @@ and paste it again right underneath it so it looks like this
 
 
 
-## NEXT: Lets create a button in the top nav bar to access our new page
+### NEXT: Lets create a button in the top nav bar to access our new page
 - Go to IMPORTS > COMPONNENTS > NAVBAR. This is the navbar that holds the buttons at the top of the page
 - To add a button, make a copy of the existing buttons that are labaled "Add Stuff" or "List Stuff". Link it to your new AddProfile page
 
@@ -82,7 +82,7 @@ Check to make sure that it shows up on the website, and leads to the exact same 
 
 
 
-## Adding a list page, where we display something from a database! (eventually)
+### Adding a list page, where we display something from a database! (eventually)
 With a MongoDB data base, info is stored in "Collections".
 - Lets make a new page int he PAGES directory, and make it identical to "ListStuff.jsx". Ill name it ListProfile.jsx, because we will list user data eventually
 - Rename the class, the .proptypes, and the export at the very bottom of the page to the class name
