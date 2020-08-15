@@ -34,11 +34,18 @@ Lets add a new page in the PAGES directory.
 Next we will give this new page a url
 - Go to to App.jsx file in UI > Layouts > App.jsx
 - At the top of App.jsx , import your new page
+
 ```
 import AddProfile from '../pages/AddProfile';
 ```
 
-- copy `<ProtectedRoute path="/add" component={AddStuff}/>` and paste it again right underneath it so it looks like this
+- copy 
+
+```
+<ProtectedRoute path="/add" component={AddStuff}/>
+```
+
+and paste it again right underneath it so it looks like this
 
 ```
 <Route exact path="/" component={Landing}/>
@@ -52,17 +59,22 @@ import AddProfile from '../pages/AddProfile';
 <ProtectedRoute path="/signout" component={Signout}/>
 ```
 
-edit the replica so the app routes traffic to your new page
-`<ProtectedRoute path="/AddProfile" component={AddProfile}/>`
+- edit the replica so the app routes traffic to your new page
+
+```
+<ProtectedRoute path="/AddProfile" component={AddProfile}/>
+```
 
 
 
-NEXT: Lets create a button in the top nav bar to access our new page
+## NEXT: Lets create a button in the top nav bar to access our new page
 - Go to IMPORTS > COMPONNENTS > NAVBAR. This is the navbar that holds the buttons at the top of the page
 - To add a button, make a copy of the existing buttons that are labaled "Add Stuff" or "List Stuff". Link it to your new AddProfile page
 
 Your new entry should look like
-`<Menu.Item as={NavLink} activeClassName="active" exact to="/addProfile" key='addProfile'>Add Profile</Menu.Item>,`
+```
+<Menu.Item as={NavLink} activeClassName="active" exact to="/addProfile" key='addProfile'>Add Profile</Menu.Item>,
+```
 
 
 Check to make sure that it shows up on the website, and leads to the exact same page as the Add Stuff button
@@ -74,6 +86,7 @@ Check to make sure that it shows up on the website, and leads to the exact same 
 With a MongoDB data base, info is stored in "Collections".
 - Lets make a new page int he PAGES directory, and make it identical to "ListStuff.jsx". Ill name it ListProfile.jsx, because we will list user data eventually
 - Rename the class, the .proptypes, and the export at the very bottom of the page to the class name
+
 ```
 class ListProfile extends React.Component {
 ...
@@ -155,11 +168,20 @@ Meteor.publish(Profiles.userPublicationName, function () {
 ## Change the code so it saves to your new collection
 - Go to AddProfile.jsx.
 - import your profiles collection at the top of the page.
+
 ```
 import { Profiles } from '../../api/stuff/Profile';
 ```
 
-- In the "Submit" section, we want to change from submitting to the `Stuffs.collection.insert({ name, quantity, condition, owner },` to submitting to the Profiles collection. `Profiles.collection.insert({ name, quantity, condition, owner },`
+- In the "Submit" section, we want to change from submitting to the 
+
+```
+Stuffs.collection.insert({ name, quantity, condition, owner },
+```
+to submitting to the Profiles collection. 
+```
+Profiles.collection.insert({ name, quantity, condition, owner },
+```
 
 
 Lets check our work. If you go to the "Add Profile" page of your website and create a submission, you should get an alert saying stuff was added,
@@ -168,13 +190,16 @@ but it would not show up on the List Profiles page beacause we havent linked it 
 Lets do that now
 
 
-## Showing your profile data. 
-This is a two part thing. PART 1.
+## Showing your profile data. This is a two part thing. PART 1.
 
 Lets create a component for displaying user data. 
 Imagine this whole thing as a function definition. We will pass in a user into this function, and get their name, and other stuff from it. In this case, we will put their data in a table
 
-The `this.props.stuff.name` will take whatever is passed into this function "stuff", and try to access the ".name" property of it
+The 
+```
+this.props.stuff.name
+```
+will take whatever is passed into this function "stuff", and try to access the ".name" property of it
 
 
 - Go to IMPORTS > UI > COMPONENTS.
@@ -196,7 +221,7 @@ export default withRouter(ProfileData);
 We will later be using a map function. Map is kinda like a super smart loop, it takes an array of elements and a function, and then performs that function on every element of that array. In our case, lets say the user makes a bunch of profiles (we shouldnt allow them this, but for the sake of this example we will!). We will pass this array of profiles to the map function, and the function will store each profile into a row of a table.
 
 
-PART 2
+## PART 2
 Now that we desiganted how we want the table displayed,
 - Go to ListProfile.jsx in IMPORTS > UI > PAGES.
 - Lets import our profiles collection at the top
