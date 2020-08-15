@@ -13,7 +13,7 @@ labels:
   Here are some basic functions of the template to get you up and running. We will get through how to add a page, access it, request data fromt he user, add it to the database, and then retrieve it.
   
   
-TO DISPLAY DATA
+### To display data:
 
 To list data, you need to gather data from the user through a form.
 We will create a page that asks the user for certain data in a certain format and store it in a database. 
@@ -23,7 +23,7 @@ Its way easier to copy paste code and modify as needed.
 
 
 
-## LETS ADD A SINGLE PAGE:
+### Lets add a single page:
 Lets start by adding the page + button to your site.
 
 Lets add a new page in the PAGES directory.
@@ -82,7 +82,7 @@ Check to make sure that it shows up on the website, and leads to the exact same 
 
 
 
-## ADDING A NEW LIST PAGE, where we display something from a database! (eventually)
+## Adding a list page, where we display something from a database! (eventually)
 With a MongoDB data base, info is stored in "Collections".
 - Lets make a new page int he PAGES directory, and make it identical to "ListStuff.jsx". Ill name it ListProfile.jsx, because we will list user data eventually
 - Rename the class, the .proptypes, and the export at the very bottom of the page to the class name
@@ -97,7 +97,7 @@ ListProfile.propTypes = {
 })(ListProfile);
 ```
 
-Then we add to the App.jsx route and make a button for it. It should display a page identical to the List List Stuff, because its pulling data from the same collection. Refer to how to do that up top! Double check to make sure its working
+Then we add to the App.jsx route and make a button for it. ON your website, it should display a page identical to the List Stuff, because its pulling data from the same collection. Refer to how to do that up top! Double check your site to make sure its working
 
 
 
@@ -120,7 +120,7 @@ export const Stuffs = new ProfilesCollection();
 For simplicity purpose, it will take in the exact same parameters as the original StuffsCollection. We will change this later
 
 
-
+### Publications
 NEXT: Go to  IMPORTS > STARTUP > SERVER > Publications.js 
 We will add function here that will return things from the Profiles collection that are associated with the logged in user
 
@@ -130,7 +130,11 @@ We will add function here that will return things from the Profiles collection t
 import { Profiles } from '../../api/stuff/Profile';
 ```
 
-- Right under the `Meteor.publish(Stuffs.userPublicationName, function () {` function, make another copy of it, so it looks like this
+- Right under the 
+```
+Meteor.publish(Stuffs.userPublicationName, function () {
+```
+function, make another copy of it, so it looks like this
 
 ```
 Meteor.publish(Stuffs.userPublicationName, function () {
@@ -165,7 +169,7 @@ Meteor.publish(Profiles.userPublicationName, function () {
 
 
 
-## Change the code so it saves to your new collection
+### Change the code so it saves to your new collection
 - Go to AddProfile.jsx.
 - import your profiles collection at the top of the page.
 
@@ -190,7 +194,7 @@ but it would not show up on the List Profiles page beacause we havent linked it 
 Lets do that now
 
 
-## Showing your profile data. This is a two part thing. PART 1.
+### Showing your profile data. This is a two part thing. PART 1.
 
 Lets create a component for displaying user data. 
 Imagine this whole thing as a function definition. We will pass in a user into this function, and get their name, and other stuff from it. In this case, we will put their data in a table
@@ -221,7 +225,7 @@ export default withRouter(ProfileData);
 We will later be using a map function. Map is kinda like a super smart loop, it takes an array of elements and a function, and then performs that function on every element of that array. In our case, lets say the user makes a bunch of profiles (we shouldnt allow them this, but for the sake of this example we will!). We will pass this array of profiles to the map function, and the function will store each profile into a row of a table.
 
 
-## PART 2
+### PART 2
 Now that we desiganted how we want the table displayed,
 - Go to ListProfile.jsx in IMPORTS > UI > PAGES.
 - Lets import our profiles collection at the top
