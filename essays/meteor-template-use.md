@@ -261,3 +261,72 @@ to
 
 The List Profile page on your site should list your new profile!
 
+
+
+
+# PUSHING AND PULLING FROM DATABASE
+### How to request specific data
+
+please note that file names might not be exactly the same so be careful
+
+- Change what to ask in AddProfile
+- Edit the SimpleSchema to get the information you want. SimpleSchema holds the type of data you want to recieve, eg String, Number, etc. I changed the quantity to "bio", and made it a string
+
+```
+const formSchema = new SimpleSchema({
+  name: String,
+  bio: String,
+  condition: {
+    type: String,
+    allowedValues: ['excellent', 'good', 'fair', 'poor'],
+    defaultValue: 'good',
+  },
+});
+
+
+- In the add profile class down below, change the type of data you want to recieve. Edit so that you want bio instead of quantity
+
+```
+submit(data, formRef) {
+    const { name, bio, condition } = data;
+    const owner = Meteor.user().username;
+    Profile.collection.insert({ name, bio, condition, owner },
+```
+
+- Next, update the part of the page that asks users to input this. Scroll down, make the "quantity" a text field, just like the "name" field above it
+
+```
+<AutoForm ref={ref => { fRef = ref; }} schema={bridge} onSubmit={data => this.submit(data, fRef)} >
+              <Segment>
+                <TextField name='name'/>
+                <TextField name='bio'/>
+                <SelectField name='condition'/>
+                <SubmitField value='Submit'/>
+                <ErrorsField/>
+```
+
+Test this by going to the website, to your " Add Profile" Page. If you try to make an entry, it will fail because we havent updated the database collection to take in this new field.
+
+Lets go to the ProfileItems component and tell the component to pull the "bio" from our user profile
+Notice how we removed the quantity and replaced it with bio
+
+```
+class ProfileItems extends React.Component {
+  render() {
+    return (
+        <Table.Row>
+          <Table.Cell>{this.props.stuff.name}</Table.Cell>
+          <Table.Cell>{this.props.stuff.bio}</Table.Cell>
+          <Table.Cell>{this.props.stuff.condition}</Table.Cell>
+          <Table.Cell>
+            <Link to={`/edit/${this.props.stuff._id}`}>Edit</Link>
+          </Table.Cell>
+        </Table.Row>
+    );
+  }
+}
+```
+
+Now the "List profiles" will display your "bio" entry, but not the quantity.
+
+
