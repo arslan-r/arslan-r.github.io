@@ -282,7 +282,7 @@ const formSchema = new SimpleSchema({
     defaultValue: 'good',
   },
 });
-
+```
 
 - In the add profile class down below, change the type of data you want to recieve. Edit so that you want bio instead of quantity
 
