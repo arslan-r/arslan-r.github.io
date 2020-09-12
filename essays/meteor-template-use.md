@@ -10,6 +10,11 @@ labels:
   - Concepts
 ---
 
+#### NOTE: This was written for my teammates in a 24 hour hackathon, and it was written FAST. Grammar may not be the best, and some sections might look funky, but we call this character :) Edits coming soon! Please excuse for now. 
+#### Much love,
+#### -A
+
+
   Here are some basic functions of the template to get you up and running. We will get through how to add a page, access it, request data fromt he user, add it to the database, and then retrieve it.
   
   
