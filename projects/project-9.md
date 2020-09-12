@@ -12,15 +12,15 @@ labels:
 summary: The "hands free" method of converting currency!
 ---
 
-Ever travel to another country? Even the best of us have a tough time adjusting for a bit. This app lets you set the country rates to exchange and you are set. Point at any price tag and the app will convert it on screen for you. This is done through optical character recognition api provided by google, which I used it to fit the needs of this app.  Additionally, should you decide to type in some numbers you wish to convert, the app does the conversion at every single button press. This allows the user to simply input their numbers and eliminates the need for submitting their input. Overall, it is as "hands free" as an app could be. All you have to do is open the app and point. That’s it.
+Ever travel to another country? Even the best of us have a tough time adjusting for a bit. All you need is this app! Set the country you are in and thats it. Point at any price tag and the app will convert it on screen for you. This is done through optical character recognition API provided by Google.  Additionally, if you wish to manually type in the numbers, the app will convert it as you type it in. This allows the user to simply enter their numbers and eliminates the need submission. Overall, it is as "hands free" as an app could be. Just open the app and point. That’s it.
 
 
-Here is an example of the phone being pointed at several price tags and processing all of them precisely. Note that there is no button to take a picture. However, the ability to take photos might be useful for record keeping purposes.
+Here is an example of the phone camera being pointed at several price tags and processing all of them precisely. There is no button to take a picture. However, the ability to take photos might be useful for record keeping purposes.
 <img class="ui medium centered rounded image" src="../images/CCEPoint.png">
 
-This demonstrates the ability to type. Note that there is no "enter" or "submit" button, as there is no need for it. 
+This demonstrates the ability for manual input 
 <img class="ui medium centered rounded image" src="../images/CCEType.png">
 
-This project is not being further pursued at the moment as there would be a running cost to obtain daily up to date exchange rates. One possible solution for this might go along the lines of hosting a website that runs a web scraper that looks up exchange rates. Still, however, there might be cost to hosting the site and the associated database.
+This project is not being further developed at the moment. There is some cost to making this project go live. For one, I would need a way to obtain up to date exchange rates. There is no easy free way to obtain this, and ne possible solution might be to run a web scraper that looks up exchange rates. Furthermore, there would be some additional cost to hosting certain resources. I believe this is still a decent idea that could make some money through banner ads. 
 
 [Link](https://github.com/arslan-r/clever_currency_exchange) to the repository, along with additional notes. 
