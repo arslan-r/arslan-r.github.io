@@ -19,29 +19,29 @@ In 2015, the Hawaii governor David Ige devised a plan to grow the local tech com
 
 One of the problems my team and I aim to solve is brought up by the Hawaii State Archives. Their goal is to “provide better end-user access to State Archive records”. The issue here, is that there is a ton of records to transcribe, and not enough manpower to do so. Additionally, given the volume and varying record keeping practices of the past, these records are often difficult or time consuming to find. To crowdsource these records, our team aims to implement gamification as an incentive measure. Setting up an adequate platform to provide users with the ability to connect to their past, but also be a part of rediscovering it will be our goal.
 
-<img class="ui medium centered rounded image" src="../images/Login.png">
+<img class="ui Huge centered rounded image" src="../images/Login.png">
 
 Our project allows the users to create an account and after a small tutorial, jump right into transcribing history. Users earn points for each job they perform, and through these points, they are placed onto monthly, daily, and all-time leaderboards to see who they rank up against. The users also earn badges based on certain things they accomplish, such as performing X amount of jobs. 
 
-<img class="ui medium centered rounded image" src="../images/doJob.png">
+<img class="ui Huge centered rounded image" src="../images/doJob.png">
 *How users index history!*
 
-<img class="ui medium centered rounded image" src="../images/leaderboard.png">
+<img class="ui Huge centered rounded image" src="../images/leaderboard.png">
 *Enough points will get you a spot on the leaderboard!*
 
 
 
 On the admin side, the archivists have certain privileges to move their projects along. To easily create a job, which is a set of scanned PDF images that need to be transcribed, the admins can upload an XML file along with their selection of PDFs. After a user finishes recording data from a job, the admins can review their entry and accept it. After all the PDFs have been transcribed, the admins can export this data in a CSV file.
 
-<img class="ui medium centered rounded image" src="../images/adminAddJob.png">
+<img class="ui Huge centered rounded image" src="../images/adminAddJob.png">
 *Uploading an XML file generates fields. PDFs to index are also added here*
 
-<img class="ui medium centered rounded image" src="../images/adminExport.png">
+<img class="ui Huge centered rounded image" src="../images/adminExport.png">
 *Once a job is finished, admins can export the data*
 
 Through this XML formatting, each job can be customized with that ever fields the admins deem necessary. Before, the inhouse employees would have to go through each job and do data entry. Now, the admins only need to create an XML file, and upload the PDFs. The crowdsourcing aspect of this project will take care of the rest.
 
-<img class="ui medium centered rounded image" src="../images/review.png">
+<img class="ui Huge centered rounded image" src="../images/review.png">
 *admins can approve or deny user entries*
 
 
