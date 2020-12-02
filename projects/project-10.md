@@ -21,13 +21,19 @@ One of the problems my team and I aim to solve is brought up by the Hawaii State
 
 <img class="ui Huge centered rounded image" src="../images/Login.png">
 
+<br /> 
+
 Our project allows the users to create an account and after a small tutorial, jump right into transcribing history. Users earn points for each job they perform, and through these points, they are placed onto monthly, daily, and all-time leaderboards to see who they rank up against. The users also earn badges based on certain things they accomplish, such as performing X amount of jobs. 
 
 <img class="ui Huge centered rounded image" src="../images/doJob.png">
 *How users index history!*
 
+<br /> 
+
 <img class="ui Huge centered rounded image" src="../images/leaderboard.png">
 *Enough points will get you a spot on the leaderboard!*
+
+<br /> 
 
 
 
@@ -36,13 +42,19 @@ On the admin side, the archivists have certain privileges to move their projects
 <img class="ui Huge centered rounded image" src="../images/adminAddJob.png">
 *Uploading an XML file generates fields. PDFs to index are also added here*
 
+<br /> 
+
 <img class="ui Huge centered rounded image" src="../images/adminExport.png">
 *Once a job is finished, admins can export the data*
+
+<br /> 
 
 Through this XML formatting, each job can be customized with that ever fields the admins deem necessary. Before, the inhouse employees would have to go through each job and do data entry. Now, the admins only need to create an XML file, and upload the PDFs. The crowdsourcing aspect of this project will take care of the rest.
 
 <img class="ui Huge centered rounded image" src="../images/review.png">
 *admins can approve or deny user entries*
+
+<br /> 
 
 
 This project could not have been done without my teammates, Gum, Jenny, Ken, and Trey. My responsibility at first was to create the front-end wireframes. After that was done, I focused on deploying the site. There were several options I could chose from, including Azure, the Google Cloud Platform, and AWS. In the end, I decided to deploy it to Microsoft Azure because Microsoft was one of the sponsors and I had past experience with the platform. As a bonus, Microsoft has Azure DevOps, which was something I never worked with, but glad I did. 
