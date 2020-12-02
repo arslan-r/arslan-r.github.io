@@ -14,9 +14,6 @@ labels:
 summary: A description of my HACC 2020 hackathon entry
 ---
 
-<img class="ui medium centered rounded image" src="../images/CCEPoint.png">
-
-[Link](https://github.com/arslan-r/clever_currency_exchange) to the repository, along with additional notes.
 
 In 2015, the Hawaii governor David Ige devised a plan to grow the local tech community and “strengthen the pipeline” for the tech industry in our state. Through this, the Hawaii Annual Code Challenge was born (HACC). Unlike a traditional hackathon, which lasts anywhere from 24 to 48 hours, the HACC breaks the mold and provides a multi-week experience. This encourages communication between participating teams and the sponsors and produces sustainable proof-of-concept solutions. 
 
@@ -69,3 +66,4 @@ One big thing I learned is the use of Azure DevOps. I honestly did not intend to
 Overall, it was a great experience. Learned a ton. Next time, I think I would try incorporating different kinds of technologies, maybe Express, or a different styling framework, such as MaterialUI. I would also love to explore different database options. This is my fourth hackathon, and through experience I found out it may not always be worth it to build a technically complex solution. A great idea is what matters. Next time, I would probably go for something super simple, but something I know I can execute well. This is easier said than done, as great ideas do not come by often. 
 
 
+[Link](https://github.com/HACC2020/ByteCryb) to our github!
